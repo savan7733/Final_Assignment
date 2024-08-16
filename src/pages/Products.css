@@ -1,0 +1,126 @@
+/* src/pages/Products.css */
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .product-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .product-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .product-card button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-card button:hover {
+    background-color: #555;
+  }
+  
+  .btn-primary {
+    background-color: #0056b3; /* Custom blue color */
+    border-color: #0056b3; /* Border color matching background */
+    color: #ffffff; /* Text color */
+    padding: 10px 20px; /* Padding around text */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    border-radius: 0.25rem; /* Rounded corners */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition for hover */
+  }
+  
+  .btn-primary:hover {
+    background-color: #004494; /* Darker shade for hover effect */
+    border-color: #004494; /* Darker border color on hover */
+    color: #e2e2e2; /* Lighter text color on hover */
+  }
+  
+  .btn-primary:active {
+    background-color: #003366; /* Even darker shade for active state */
+    border-color: #003366; /* Darker border for active state */
+    color: #d4d4d4; /* Text color on active state */
+  }
+  
+  .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); /* Outline effect for accessibility */
+  }
+  
+  .btn-primary:disabled {
+    background-color: #c0c0c0; /* Light gray background for disabled state */
+    border-color: #c0c0c0; /* Border color for disabled state */
+    color: #ffffff; /* Text color for disabled state */
+  }
+  .card-body {
+    text-align: center; /* Center-aligns all content */
+    padding: 1.25rem; /* Padding inside the card body */
+  }
+  
+  .card-title {
+    color: #333; /* Dark gray color for the title */
+    font-size: 1.25rem; /* Font size for the title */
+    margin-bottom: 0.75rem; /* Space below the title */
+  }
+  
+  .card-text {
+    color: #666; /* Medium gray color for text */
+    margin-bottom: 0.5rem; /* Space below each text element */
+  }
+  
+  .card-text.bold {
+    font-weight: bold; /* Bold text for specific text */
+  }
+  
+  .btn-primary {
+    background-color: #0056b3; /* Custom blue color */
+    border-color: #0056b3; /* Border color matching background */
+    color: #ffffff; /* Text color */
+    padding: 10px 20px; /* Padding around text */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    border-radius: 0.25rem; /* Rounded corners */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition for hover */
+    margin-top: 10px; /* Space above the button */
+  }
+  
+  .btn-primary:hover {
+    background-color: #004494; /* Darker shade for hover effect */
+    border-color: #004494; /* Darker border color on hover */
+    color: #e2e2e2; /* Lighter text color on hover */
+  }
+  
+  .btn-primary:active {
+    background-color: #003366; /* Even darker shade for active state */
+    border-color: #003366; /* Darker border for active state */
+    color: #d4d4d4; /* Text color on active state */
+  }
+  
+  .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); /* Outline effect for accessibility */
+  }
+  
+  .btn-primary:disabled {
+    background-color: #c0c0c0; /* Light gray background for disabled state */
+    border-color: #c0c0c0; /* Border color for disabled state */
+    color: #ffffff; /* Text color for disabled state */
+  }
+    

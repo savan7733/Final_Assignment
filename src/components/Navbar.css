@@ -1,0 +1,106 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Navbar.css */
+.navbar {
+  position: fixed; /* Fixes the navbar to the top */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  background-color: #343a40; /* Dark background color */
+  color: #ffffff; /* White text color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional shadow for better separation */
+  z-index: 1000; /* Ensures the navbar stays on top of other content */
+  padding: 10px 20px; /* Adds padding for spacing */
+}
+
+.navbar ul {
+  list-style: none; /* Removes default list styling */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Aligns items horizontally */
+  justify-content: center; /* Centers the items */
+}
+
+.navbar li {
+  margin: 0 15px; /* Adds space between items */
+}
+
+.navbar a {
+  color: #ffffff; /* White text color for links */
+  text-decoration: none; /* Removes underline from links */
+  font-size: 1rem; /* Font size for links */
+  padding: 5px 10px; /* Adds padding for clickable area */
+  border-radius: 4px; /* Rounded corners for links */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar a:hover {
+  background-color: #495057; /* Darker background on hover */
+}
+
+/* Navbar.css */
+.navbar {
+  position: fixed; /* Fixes the navbar to the top */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  background-color: #343a40; /* Dark background color */
+  color: #ffffff; /* White text color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow for better separation */
+  z-index: 1000; /* Ensures the navbar stays on top of other content */
+  padding: 15px 30px; /* Increased padding for a bigger navbar */
+  display: flex;
+  justify-content: center; /* Center-aligns the navbar items */
+  align-items: center; /* Vertically centers the navbar items */
+}
+
+.navbar ul {
+  list-style: none; /* Removes default list styling */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Aligns items horizontally */
+}
+
+.navbar li {
+  margin: 0 20px; /* Adds more space between items */
+}
+
+.navbar a {
+  color: #ffffff; /* White text color for links */
+  text-decoration: none; /* Removes underline from links */
+  font-size: 1.25rem; /* Bigger font size for better visibility */
+  font-weight: bold; /* Makes the text bold */
+  padding: 10px 20px; /* Increased padding for a larger clickable area */
+  border-radius: 5px; /* More rounded corners for a modern look */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+.navbar a:hover {
+  background-color: #495057; /* Darker background on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
